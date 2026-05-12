@@ -1,0 +1,247 @@
+[
+  {
+    "objectID": "marketing-analytics.html",
+    "href": "marketing-analytics.html",
+    "title": "Marketing Projects",
+    "section": "",
+    "text": "This page showcases selected IBM coursework projects focused on marketing analytics, data visualization, dashboards, and business insights.\nThese projects demonstrate my experience using RStudio and Quarto to organize data, create visualizations, and communicate findings clearly.\n\n\nFor this project, I analyzed student survey data to understand how students viewed the value of research participation. My research question focused on whether students in different courses perceived value differently.\n\n\n\nRStudio\nQuarto\ntidyverse\nggplot2\nData wrangling\nData visualization\n\n\n\n\n\nCleaned and organized the data\nCreated a perceived value variable\nCompared student responses across courses\nUsed charts to make the results easier to understand\n\n\n\n\nThis project shows my ability to work with data, create useful visuals, and explain results in a clear way.\n\n\n\n\n\n\n\n\n\n# A tibble: 6 × 2\n  course perceived_value\n  &lt;fct&gt;            &lt;dbl&gt;\n1 3                  5  \n2 5                  4  \n3 5                  3.5\n4 5                  2  \n5 1                  4  \n6 1                  4  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe boxplot shows how perceived value is distributed across different courses.\n\n\n\n\nThis project focused on transforming raw datasets into visuals that are easier to understand and explain.\n\n\n\nHow to create charts in R\nHow to summarize patterns\nHow visualization improves communication\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThrough these projects, I learned how analytics can support marketing decisions by helping businesses better understand customer behavior, performance, and trends.\nI also improved my ability to explain technical information in a simpler and more professional way.\n\n\n\n\nThis project focused on working with advanced data types in R, including strings, factors, and date-time objects. The assignment also explored how Revealjs presentations can be used to communicate technical information more effectively.\n\n\n\ntidyverse\nstringr\nforcats\nlubridate\nRevealjs\nData transformation\nData summarization\n\n\n\n\nThis project helped me better understand how different data types are handled in R. I learned how string functions can identify text patterns, how factor functions help organize categorical data, and how date-time functions simplify working with dates.\nI also learned how Revealjs presentations can combine code, analysis, and presentation design into one workflow.\n\n\n\n\n\n\n\n[1] 3\n\n\n\n\n\n\n\n[1] A B C\nLevels: C B A\n\n\n\n\n\n\n\n[1] \"2026-05-12\"\n\n\n\n\n\n\n\nData transformation\nTechnical communication\nAnalytical thinking\nProblem solving\nWorkflow organization\n\n\n\n\nThis project improved my confidence working with more advanced data structures and functions in R. It also strengthened my understanding of how technical concepts can be communicated through presentations and reports."
+  },
+  {
+    "objectID": "marketing-analytics.html#project-1-research-participation-analysis",
+    "href": "marketing-analytics.html#project-1-research-participation-analysis",
+    "title": "Marketing Projects",
+    "section": "",
+    "text": "For this project, I analyzed student survey data to understand how students viewed the value of research participation. My research question focused on whether students in different courses perceived value differently.\n\n\n\nRStudio\nQuarto\ntidyverse\nggplot2\nData wrangling\nData visualization\n\n\n\n\n\nCleaned and organized the data\nCreated a perceived value variable\nCompared student responses across courses\nUsed charts to make the results easier to understand\n\n\n\n\nThis project shows my ability to work with data, create useful visuals, and explain results in a clear way."
+  },
+  {
+    "objectID": "marketing-analytics.html#data-wrangling",
+    "href": "marketing-analytics.html#data-wrangling",
+    "title": "Marketing Projects",
+    "section": "",
+    "text": "# A tibble: 6 × 2\n  course perceived_value\n  &lt;fct&gt;            &lt;dbl&gt;\n1 3                  5  \n2 5                  4  \n3 5                  3.5\n4 5                  2  \n5 1                  4  \n6 1                  4"
+  },
+  {
+    "objectID": "marketing-analytics.html#data-visualization---boxplot",
+    "href": "marketing-analytics.html#data-visualization---boxplot",
+    "title": "Marketing Projects",
+    "section": "",
+    "text": "The boxplot shows how perceived value is distributed across different courses."
+  },
+  {
+    "objectID": "marketing-analytics.html#project-2-data-visualization-practice",
+    "href": "marketing-analytics.html#project-2-data-visualization-practice",
+    "title": "Marketing Projects",
+    "section": "",
+    "text": "This project focused on transforming raw datasets into visuals that are easier to understand and explain.\n\n\n\nHow to create charts in R\nHow to summarize patterns\nHow visualization improves communication"
+  },
+  {
+    "objectID": "marketing-analytics.html#project-3-marketing-analytics-reflection",
+    "href": "marketing-analytics.html#project-3-marketing-analytics-reflection",
+    "title": "Marketing Projects",
+    "section": "",
+    "text": "Through these projects, I learned how analytics can support marketing decisions by helping businesses better understand customer behavior, performance, and trends.\nI also improved my ability to explain technical information in a simpler and more professional way."
+  },
+  {
+    "objectID": "marketing-analytics.html#project-4-advanced-data-types-and-structures",
+    "href": "marketing-analytics.html#project-4-advanced-data-types-and-structures",
+    "title": "Marketing Projects",
+    "section": "",
+    "text": "This project focused on working with advanced data types in R, including strings, factors, and date-time objects. The assignment also explored how Revealjs presentations can be used to communicate technical information more effectively.\n\n\n\ntidyverse\nstringr\nforcats\nlubridate\nRevealjs\nData transformation\nData summarization\n\n\n\n\nThis project helped me better understand how different data types are handled in R. I learned how string functions can identify text patterns, how factor functions help organize categorical data, and how date-time functions simplify working with dates.\nI also learned how Revealjs presentations can combine code, analysis, and presentation design into one workflow.\n\n\n\n\n\n\n\n[1] 3\n\n\n\n\n\n\n\n[1] A B C\nLevels: C B A\n\n\n\n\n\n\n\n[1] \"2026-05-12\"\n\n\n\n\n\n\n\nData transformation\nTechnical communication\nAnalytical thinking\nProblem solving\nWorkflow organization\n\n\n\n\nThis project improved my confidence working with more advanced data structures and functions in R. It also strengthened my understanding of how technical concepts can be communicated through presentations and reports."
+  },
+  {
+    "objectID": "contact-us/thank-you.html",
+    "href": "contact-us/thank-you.html",
+    "title": "Thank you",
+    "section": "",
+    "text": "Form submitted."
+  },
+  {
+    "objectID": "strategic-marketing.html",
+    "href": "strategic-marketing.html",
+    "title": "Strategic Marketing",
+    "section": "",
+    "text": "Below are selected projects that showcase my work in strategic marketing, campaign development, and brand management. These examples highlight how I apply leadership, data-informed decision making, and creative direction to drive marketing success."
+  },
+  {
+    "objectID": "strategic-marketing.html#project-title-1-strategic-campaign-planning",
+    "href": "strategic-marketing.html#project-title-1-strategic-campaign-planning",
+    "title": "Strategic Marketing",
+    "section": "[Project Title 1: Strategic Campaign Planning]",
+    "text": "[Project Title 1: Strategic Campaign Planning]\nIn this project, I led the development of a comprehensive marketing campaign for [product, service, or initiative]. From audience segmentation to messaging strategy, I managed the full lifecycle of the campaign, aligning it with business objectives and measurable KPIs.\nSkills Demonstrated:\n\nMarketing Strategy: Defined objectives and tactics for maximum impact.\nTeam Coordination: Oversaw collaboration across creative, data, and channel teams.\nPerformance Tracking: Implemented real-time metrics and post-campaign analysis.\nBrand Positioning: Ensured consistency across all touchpoints."
+  },
+  {
+    "objectID": "strategic-marketing.html#project-title-2-brand-audit-positioning",
+    "href": "strategic-marketing.html#project-title-2-brand-audit-positioning",
+    "title": "Strategic Marketing",
+    "section": "[Project Title 2: Brand Audit & Positioning]",
+    "text": "[Project Title 2: Brand Audit & Positioning]\nThis initiative involved conducting a full brand audit for [organization or brand], evaluating its current market perception, competitive landscape, and customer engagement. I synthesized insights into a refreshed brand strategy and visual identity recommendations.\nSkills Demonstrated:\n\nBrand Analysis: Audited messaging, tone, and visual identity.\nCompetitive Benchmarking: Evaluated brand positioning within the market.\nStrategic Communication: Developed new value propositions and storytelling elements.\nStakeholder Presentation: Delivered recommendations to senior leadership."
+  },
+  {
+    "objectID": "strategic-marketing.html#project-title-3-product-launch-go-to-market-plan",
+    "href": "strategic-marketing.html#project-title-3-product-launch-go-to-market-plan",
+    "title": "Strategic Marketing",
+    "section": "[Project Title 3: Product Launch Go-to-Market Plan]",
+    "text": "[Project Title 3: Product Launch Go-to-Market Plan]\nFor the release of [new product/service], I created a go-to-market (GTM) strategy from scratch. This included customer journey mapping, channel mix planning, and launch timeline coordination.\nSkills Demonstrated:\n\nGo-to-Market Strategy: Developed a clear launch roadmap aligned with buyer needs.\nIntegrated Marketing: Orchestrated email, paid ads, social, and on-site promotions.\nBudget Management: Allocated resources efficiently across tactics.\nLaunch Optimization: Tracked performance and refined tactics in real time.\n\nBelow is an embedded demonstration of the interactive report:"
+  },
+  {
+    "objectID": "strategic-marketing.html#project-title-4-client-consulting-campaign-optimization",
+    "href": "strategic-marketing.html#project-title-4-client-consulting-campaign-optimization",
+    "title": "Strategic Marketing",
+    "section": "[Project Title 4: Client Consulting & Campaign Optimization]",
+    "text": "[Project Title 4: Client Consulting & Campaign Optimization]\nI collaborated with a client to assess and optimize their existing marketing efforts. Through audits, persona development, and campaign refinement, I helped improve ROI and audience engagement.\nSkills Demonstrated:\n\nClient Consulting: Provided clear insights and strategic guidance.\nPersona Development: Built target personas to guide messaging.\nCampaign Optimization: Identified and addressed areas of underperformance.\nData-Driven Adjustments: Leveraged analytics to refine tactics."
+  },
+  {
+    "objectID": "listings/05-social-media-engagement.html",
+    "href": "listings/05-social-media-engagement.html",
+    "title": "Social Media Engagement Analysis",
+    "section": "",
+    "text": "Overview\nThis analysis examined engagement metrics across multiple social media platforms to identify content trends, audience preferences, and posting strategies that drive performance.\n\n\n\n\nLearning Outcomes\n\nAggregate and clean social media data.\n\nIdentify high-performing content formats.\n\nUnderstand audience behavior and peak times.\n\nSupport social strategy with data-backed recommendations.\n\nVisualize results in an executive summary.\n\n\n\n\nKey Skills Gained\n\nSocial analytics\n\nPlatform metric APIs\n\nContent performance tracking\n\nAudience insights\n\nStrategic planning"
+  },
+  {
+    "objectID": "listings/03-customer-segmentation-clustering.html",
+    "href": "listings/03-customer-segmentation-clustering.html",
+    "title": "Customer Segmentation Using Clustering",
+    "section": "",
+    "text": "Overview\nIn this analysis, customer data was segmented using clustering algorithms to identify meaningful groups. These segments informed targeting strategies and personalization efforts.\n\n\n\n\nLearning Outcomes\n\nClean and prepare customer-level data.\n\nApply clustering techniques to group similar customers.\n\nInterpret clusters to define marketing personas.\n\nRecommend tailored messaging strategies.\n\nSupport targeted campaign development.\n\n\n\n\nKey Skills Gained\n\nK-means clustering\n\nData preprocessing\n\nCustomer profiling\n\nMarket segmentation strategy\n\nR or Python for machine learning"
+  },
+  {
+    "objectID": "google-analytics.html",
+    "href": "google-analytics.html",
+    "title": "Google Analytics & BigQuery",
+    "section": "",
+    "text": "This project highlights my experience working with Google Analytics tools, BigQuery, SQL, and Looker Studio through IBM coursework.\nThese activities focused on analyzing datasets, organizing information, and creating visual reports to better understand data patterns and performance."
+  },
+  {
+    "objectID": "google-analytics.html#certification",
+    "href": "google-analytics.html#certification",
+    "title": "Google Analytics & BigQuery",
+    "section": "Certification",
+    "text": "Certification"
+  },
+  {
+    "objectID": "revealsj.html",
+    "href": "revealsj.html",
+    "title": "Revealjs Presentation",
+    "section": "",
+    "text": "This page highlights my work with Revealjs presentations in Quarto. Revealjs is different from PowerPoint because the slides are created using code and Markdown, then rendered as a web-based presentation.\n\n\nFor this assignment, I reflected on advanced data wrangling skills in R and explained how Revealjs presentations can be used to communicate technical information.\n\n\n\n\nQuarto\nRevealjs presentations\nMarkdown formatting\nRStudio workflow\nData wrangling concepts\nProfessional communication\n\n\n\n\nThrough this assignment, I learned that Revealjs presentations are useful because they allow code, explanation, and presentation slides to be connected in one document. This makes the work easier to update, reproduce, and publish online.\n\n\n\nThis assignment also covered important data wrangling concepts, including:\n\nCleaning datasets\nUsing the pipe operator\nJoining relational datasets\nUsing left_join()\nUsing inner_join()\nUsing full_join()\n\n\n\n\n\nlibrary(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.2.1     ✔ readr     2.2.0\n✔ forcats   1.0.1     ✔ stringr   1.6.0\n✔ ggplot2   4.0.3     ✔ tibble    3.3.1\n✔ lubridate 1.9.5     ✔ tidyr     1.3.2\n✔ purrr     1.2.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\ndf1 &lt;- tibble(\n  id = c(1, 2, 3),\n  name = c(\"Alice\", \"Bob\", \"Carol\")\n)\n\ndf2 &lt;- tibble(\n  id = c(1, 2, 4),\n  score = c(85, 90, 88)\n)\n\nleft_join(df1, df2, by = \"id\")\n\n# A tibble: 3 × 3\n     id name  score\n  &lt;dbl&gt; &lt;chr&gt; &lt;dbl&gt;\n1     1 Alice    85\n2     2 Bob      90\n3     3 Carol    NA\n\n\n\n\n\nThis project helped me understand how data wrangling supports analysis before visualizations or conclusions are created. It also showed me how Quarto can be used for both reports and presentations."
+  },
+  {
+    "objectID": "revealsj.html#project-overview",
+    "href": "revealsj.html#project-overview",
+    "title": "Revealjs Presentation",
+    "section": "",
+    "text": "For this assignment, I reflected on advanced data wrangling skills in R and explained how Revealjs presentations can be used to communicate technical information."
+  },
+  {
+    "objectID": "revealsj.html#skills-demonstrated",
+    "href": "revealsj.html#skills-demonstrated",
+    "title": "Revealjs Presentation",
+    "section": "",
+    "text": "Quarto\nRevealjs presentations\nMarkdown formatting\nRStudio workflow\nData wrangling concepts\nProfessional communication"
+  },
+  {
+    "objectID": "revealsj.html#what-i-learned",
+    "href": "revealsj.html#what-i-learned",
+    "title": "Revealjs Presentation",
+    "section": "",
+    "text": "Through this assignment, I learned that Revealjs presentations are useful because they allow code, explanation, and presentation slides to be connected in one document. This makes the work easier to update, reproduce, and publish online."
+  },
+  {
+    "objectID": "revealsj.html#advanced-data-wrangling-topics",
+    "href": "revealsj.html#advanced-data-wrangling-topics",
+    "title": "Revealjs Presentation",
+    "section": "",
+    "text": "This assignment also covered important data wrangling concepts, including:\n\nCleaning datasets\nUsing the pipe operator\nJoining relational datasets\nUsing left_join()\nUsing inner_join()\nUsing full_join()"
+  },
+  {
+    "objectID": "revealsj.html#example-code-from-assignment",
+    "href": "revealsj.html#example-code-from-assignment",
+    "title": "Revealjs Presentation",
+    "section": "",
+    "text": "library(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.2.1     ✔ readr     2.2.0\n✔ forcats   1.0.1     ✔ stringr   1.6.0\n✔ ggplot2   4.0.3     ✔ tibble    3.3.1\n✔ lubridate 1.9.5     ✔ tidyr     1.3.2\n✔ purrr     1.2.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\ndf1 &lt;- tibble(\n  id = c(1, 2, 3),\n  name = c(\"Alice\", \"Bob\", \"Carol\")\n)\n\ndf2 &lt;- tibble(\n  id = c(1, 2, 4),\n  score = c(85, 90, 88)\n)\n\nleft_join(df1, df2, by = \"id\")\n\n# A tibble: 3 × 3\n     id name  score\n  &lt;dbl&gt; &lt;chr&gt; &lt;dbl&gt;\n1     1 Alice    85\n2     2 Bob      90\n3     3 Carol    NA"
+  },
+  {
+    "objectID": "revealsj.html#reflection",
+    "href": "revealsj.html#reflection",
+    "title": "Revealjs Presentation",
+    "section": "",
+    "text": "This project helped me understand how data wrangling supports analysis before visualizations or conclusions are created. It also showed me how Quarto can be used for both reports and presentations."
+  },
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Resume",
+    "section": "",
+    "text": "Mia Cortez\nEmail: miacortez0924@hotmail.com\nPhone: 760-519-8499\n\n\nProfessional Summary\nMotivated Business Administration student with a focus in Marketing at Cal Poly Pomona. Experienced in customer service, teamwork, leadership, event support, and fast-paced work environments. Skilled in communication, organization, accountability, and supporting teams through reliable and professional work.\n\n\nTechnical Skills\n\nMarketing & Analytics: Marketing analytics, Google Analytics 4, data visualization, dashboard design\n\nSoftware & Tools: RStudio, Quarto, BigQuery, Looker Studio, Microsoft Office, Google Workspace\n\nProfessional Skills: Customer service, communication, teamwork, organization, problem-solving, leadership\n\n\n\nEducation\n\n\n\n\n\n\n\n\n\nDegree\nYear\nCollege / Department\nInstitution\n\n\n\n\nBusiness Administration, Marketing\nCurrent Student\nCollege of Business Administration\nCal Poly Pomona\n\n\nHigh School Diploma\nGraduated 2023\nMission Vista High School\nOceanside, CA\n\n\n\n\n\nLeadership Experience\n\nBabysitting experience with children below the age of five.\nTeacher assistant leadership experience.\nTeam Project Coordinator for class projects by organizing tasks, setting deadlines, and helping the team stay on track.\nAVID student in high school.\nLink Crew leadership student in high school.\nMember of the American Marketing Association at Cal Poly Pomona.\n\n\n\nLeadership Qualities\n\nIntegrity\nAccountability\nConfidence\nSelf-awareness\nWillingness to take on difficult tasks\nAbility to work productively with others\n\n\n\nWork Experience\n\nSales Floor Support, Nordstrom Rack\nMay 2025 – January 2026\n\nWorked with team members to keep the sales floor clean, organized, and visually appealing.\nHelped customers with quick checkouts and online order pickups.\nPrepared returned items to go back onto the sales floor.\nRestocked products so items were available for customers.\nAnswered customer questions and provided support when needed.\nSupported daily store goals through teamwork, organization, and customer service.\n\n\n\n\nStudent Assistant, Cal Poly Pomona — Centerpointe Dining Hall\nDecember 2024 – May 2025\n\nMaintained cleanliness and sanitation in the dishwashing area and dining facility.\nOperated commercial dishwashing equipment and handled kitchenware carefully.\nRestocked clean dishes, utensils, and cookware during meal periods.\nCommunicated with team members and supervisors to maintain a steady workflow.\nAdapted to a fast-paced environment while managing multiple tasks under pressure.\n\n\n\n\nStudent Assistant, Huntley College of Agriculture, Cal Poly Pomona\nSeptember 2024 – October 2024\n\nAssisted with event preparation, organization, and breakdown.\nHelped build and assemble exhibits.\nSupported Huntley College of Agriculture department activities.\nAnswered questions from the public about college programs, clubs, and activities.\nRestocked supplies and maintained a clean workspace.\nCompleted various tasks during public events.\n\n\n\n\nFront End Team Associate, Walmart\nApril 2022 – July 2023\n\nAssisted customers with checkout, product questions, store policies, refunds, and exchanges.\nOperated the cash register and handled cash, credit, and debit transactions accurately.\nHelped maintain clean and organized checkout and front-end areas.\nSupported a positive work environment through communication and teamwork.\nHelped customers enter the store, locate items, and receive assistance when needed.\n\n\n\n\nCareer Interests\n\nMarketing Analytics\nDigital Marketing\nConsumer Behavior\nBrand Strategy\nData-Driven Marketing"
+  },
+  {
+    "objectID": "listings/02-seo-benchmarking-analysis.html",
+    "href": "listings/02-seo-benchmarking-analysis.html",
+    "title": "SEO Benchmarking Analysis",
+    "section": "",
+    "text": "Overview\nThis project compared SEO performance across competitors, highlighting keyword gaps, backlink profiles, and content effectiveness. Insights were used to guide an improved content and SEO strategy.\n\n\n\n\nLearning Outcomes\n\nIdentify keyword opportunities through competitive research.\n\nTrack and compare domain authority and page rankings.\n\nRecommend on-page SEO improvements.\n\nDesign a data-driven SEO content strategy.\n\nVisualize competitor positioning.\n\n\n\n\nKey Skills Gained\n\nKeyword research\n\nWeb scraping & data cleaning\n\nSEO analysis tools\n\nData storytelling\n\nStrategy development"
+  },
+  {
+    "objectID": "listings/04-funnel-attribution-model.html",
+    "href": "listings/04-funnel-attribution-model.html",
+    "title": "Marketing Funnel Attribution Model",
+    "section": "",
+    "text": "Overview\nThis project developed a marketing attribution model to assign credit to touchpoints throughout the conversion journey. The insights supported channel optimization and budget reallocation.\n\n\n\n\nLearning Outcomes\n\nTrack multi-touch customer journeys.\n\nModel attribution using first-touch, last-touch, and linear approaches.\n\nVisualize funnel performance.\n\nQuantify channel impact on conversion.\n\nGuide future campaign investment decisions.\n\n\n\n\nKey Skills Gained\n\nAttribution modeling\n\nFunnel analysis\n\nData visualization\n\nCampaign performance analysis\n\nR or Python analytics pipelines"
+  },
+  {
+    "objectID": "listings/01-campaign-insights-dashboard.html",
+    "href": "listings/01-campaign-insights-dashboard.html",
+    "title": "Campaign Insights Dashboard",
+    "section": "",
+    "text": "Overview\nThis project involved building a dashboard to track and visualize marketing campaign performance. Metrics like click-through rate, conversion rate, and ROI were tracked across channels using R and Tableau.\n\n\n\n\nLearning Outcomes\n\nVisualize and monitor key marketing metrics.\n\nAnalyze performance trends across multiple campaigns.\n\nIdentify high- and low-performing segments.\n\nCommunicate insights through interactive visuals.\n\nDevelop data-informed recommendations.\n\n\n\n\nKey Skills Gained\n\nDashboard development\n\nCampaign analytics\n\nData wrangling in R\n\nTableau or R Shiny visualization\n\nPerformance measurement"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Hi, I’m Mia Cortez",
+    "section": "",
+    "text": "I am a Business Administration student with a focus in Marketing at Cal Poly Pomona. My portfolio highlights my work in marketing analytics, data visualization, Google Analytics, dashboards, and Quarto projects."
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Hi, I’m Mia Cortez",
+    "section": "About Me",
+    "text": "About Me\nI am interested in marketing analytics, digital marketing, and using data to better understand customers and business decisions. Through my IBM coursework, I have practiced working with RStudio, Quarto, data wrangling, visualizations, dashboards, and presentations."
+  },
+  {
+    "objectID": "index.html#skills",
+    "href": "index.html#skills",
+    "title": "Hi, I’m Mia Cortez",
+    "section": "Skills",
+    "text": "Skills\n\nRStudio\nQuarto\nData wrangling\nData visualization\nGoogle Analytics 4\nMarketing analytics\nDashboard design\nPresentation design"
+  },
+  {
+    "objectID": "index.html#career-goal",
+    "href": "index.html#career-goal",
+    "title": "Hi, I’m Mia Cortez",
+    "section": "Career Goal",
+    "text": "Career Goal\nMy goal is to build a career in marketing where I can use data, creativity, and strategy to help businesses make better decisions and connect with customers."
+  },
+  {
+    "objectID": "index.html#highlighted-work",
+    "href": "index.html#highlighted-work",
+    "title": "Hi, I’m Mia Cortez",
+    "section": "Highlighted Work",
+    "text": "Highlighted Work\nThis portfolio includes selected IBM assignments, including marketing analytics projects, Google Analytics work, dashboard examples, and a Revealjs presentation."
+  },
+  {
+    "objectID": "index.html#lets-connect",
+    "href": "index.html#lets-connect",
+    "title": "Hi, I’m Mia Cortez",
+    "section": "Let’s Connect",
+    "text": "Let’s Connect\nYou can email me at mscortez@cpp.edu or connect with me on LinkedIn https://www.linkedin.com/in/miacortezz/\n\nWelcome to my portfolio."
+  },
+  {
+    "objectID": "contact-us/contact-us.html",
+    "href": "contact-us/contact-us.html",
+    "title": "Contact Us",
+    "section": "",
+    "text": "Template"
+  }
+]
