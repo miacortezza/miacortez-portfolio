@@ -1,0 +1,97 @@
+---
+title: "Resume"
+---
+
+# Mia Cortez
+
+**Email:** [miacortez0924@hotmail.com](mailto:miacortez0924@hotmail.com)  
+**Phone:** 760-519-8499  
+
+# Professional Summary
+
+Motivated Business Administration student with a focus in Marketing at Cal Poly Pomona. Experienced in customer service, teamwork, leadership, event support, and fast-paced work environments. Skilled in communication, organization, accountability, and supporting teams through reliable and professional work.
+
+# Technical Skills
+
+- **Marketing & Analytics:** Marketing analytics, Google Analytics 4, data visualization, dashboard design  
+- **Software & Tools:** RStudio, Quarto, BigQuery, Looker Studio, Microsoft Office, Google Workspace  
+- **Professional Skills:** Customer service, communication, teamwork, organization, problem-solving, leadership  
+
+# Education
+
+| Degree | Year | College / Department | Institution |
+|---|---|---|---|
+| Business Administration, Marketing | Current Student | College of Business Administration | Cal Poly Pomona |
+| High School Diploma | Graduated 2023 | Mission Vista High School | Oceanside, CA |
+
+# Leadership Experience
+
+- Babysitting experience with children below the age of five.
+- Teacher assistant leadership experience.
+- Team Project Coordinator for class projects by organizing tasks, setting deadlines, and helping the team stay on track.
+- AVID student in high school.
+- Link Crew leadership student in high school.
+- Member of the American Marketing Association at Cal Poly Pomona.
+
+# Leadership Qualities
+
+- Integrity
+- Accountability
+- Confidence
+- Self-awareness
+- Willingness to take on difficult tasks
+- Ability to work productively with others
+
+# Work Experience
+
+### Sales Floor Support, Nordstrom Rack  
+*May 2025 – January 2026*
+
+- Worked with team members to keep the sales floor clean, organized, and visually appealing.
+- Helped customers with quick checkouts and online order pickups.
+- Prepared returned items to go back onto the sales floor.
+- Restocked products so items were available for customers.
+- Answered customer questions and provided support when needed.
+- Supported daily store goals through teamwork, organization, and customer service.
+
+---
+
+### Student Assistant, Cal Poly Pomona — Centerpointe Dining Hall  
+*December 2024 – May 2025*
+
+- Maintained cleanliness and sanitation in the dishwashing area and dining facility.
+- Operated commercial dishwashing equipment and handled kitchenware carefully.
+- Restocked clean dishes, utensils, and cookware during meal periods.
+- Communicated with team members and supervisors to maintain a steady workflow.
+- Adapted to a fast-paced environment while managing multiple tasks under pressure.
+
+---
+
+### Student Assistant, Huntley College of Agriculture, Cal Poly Pomona  
+*September 2024 – October 2024*
+
+- Assisted with event preparation, organization, and breakdown.
+- Helped build and assemble exhibits.
+- Supported Huntley College of Agriculture department activities.
+- Answered questions from the public about college programs, clubs, and activities.
+- Restocked supplies and maintained a clean workspace.
+- Completed various tasks during public events.
+
+---
+
+### Front End Team Associate, Walmart  
+*April 2022 – July 2023*
+
+- Assisted customers with checkout, product questions, store policies, refunds, and exchanges.
+- Operated the cash register and handled cash, credit, and debit transactions accurately.
+- Helped maintain clean and organized checkout and front-end areas.
+- Supported a positive work environment through communication and teamwork.
+- Helped customers enter the store, locate items, and receive assistance when needed.
+
+# Career Interests
+
+- Marketing Analytics
+- Digital Marketing
+- Consumer Behavior
+- Brand Strategy
+- Data-Driven Marketing

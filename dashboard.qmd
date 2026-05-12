@@ -1,0 +1,51 @@
+---
+title: "Dashboard"
+format: 
+  dashboard:
+    orientation: rows
+---
+
+```{r}
+library(ggplot2)
+library(gapminder)
+```
+
+## Dashboard Overview
+
+This dashboard is an example from my IBM coursework. It uses the Gapminder dataset to compare population and life expectancy across continents.
+
+## Population by Continent
+
+```{r}
+gapminder |>
+  subset(year == 2007) |>
+  aggregate(pop ~ continent, sum) |>
+  ggplot(aes(x = continent, y = pop)) +
+  geom_col() +
+  labs(
+    title = "Population by Continent in 2007",
+    x = "Continent",
+    y = "Population"
+  ) +
+  theme_minimal()
+```
+
+## Life Expectancy by Continent
+
+```{r}
+gapminder |>
+  subset(year == 2007) |>
+  ggplot(aes(x = continent, y = lifeExp)) +
+  geom_boxplot() +
+  labs(
+    title = "Life Expectancy by Continent in 2007",
+    x = "Continent",
+    y = "Life Expectancy"
+  ) +
+  theme_minimal()
+```
+
+## Reflection
+
+This dashboard helped me practice organizing charts in one place so viewers can quickly compare data and understand patterns.
+

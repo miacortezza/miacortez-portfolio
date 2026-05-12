@@ -1,0 +1,213 @@
+---
+title: "Marketing Projects"
+format: html
+execute:
+  echo: false
+warning: false
+message: false
+---
+
+```{r}
+library(ggplot2)
+library(dplyr)
+
+project_data <- data.frame(
+  Project = c(
+    "Google Analytics",
+    "Dashboard Design",
+    "Data Visualization",
+    "Survey Analysis",
+    "Marketing Research"
+  ),
+  Score = c(92, 88, 95, 84, 90)
+)
+```
+
+# Marketing Analytics Projects
+
+This page showcases selected IBM coursework projects focused on marketing analytics, data visualization, dashboards, and business insights.
+
+These projects demonstrate my experience using RStudio and Quarto to organize data, create visualizations, and communicate findings clearly.
+
+## Project 1: Research Participation Analysis
+
+For this project, I analyzed student survey data to understand how students viewed the value of research participation. My research question focused on whether students in different courses perceived value differently.
+
+```{r}
+library(haven)
+library(janitor)
+library(dplyr)
+
+data <- read_sav("data/RPE-Combined-2019-12-19.sav") |>
+  clean_names()
+```
+
+```{r}
+data <- read_sav("data/RPE-Combined-2019-12-19.sav") %>%
+  clean_names()
+
+```
+
+
+### Tools Used
+
+- RStudio
+- Quarto
+- tidyverse
+- ggplot2
+- Data wrangling
+- Data visualization
+
+### What I Did
+
+- Cleaned and organized the data
+- Created a perceived value variable
+- Compared student responses across courses
+- Used charts to make the results easier to understand
+
+### Skills Shown
+
+This project shows my ability to work with data, create useful visuals, and explain results in a clear way.
+
+### Example Visualization
+## Data Wrangling
+
+```{r}
+library(dplyr)
+var_labels <- sapply(data, function(x) attr(x, "label"))
+
+time_col <- names(var_labels)[grepl("Worth/Worth Time", var_labels, ignore.case = TRUE)][1]
+effort_col <- names(var_labels)[grepl("Worth/Worth Effort", var_labels, ignore.case = TRUE)][1]
+course_col <- names(var_labels)[grepl("Major Class", var_labels, ignore.case = TRUE)][1]
+rq4_data <- data %>%
+  mutate(
+    perceived_value = rowMeans(
+      select(., all_of(c(time_col, effort_col))),
+      na.rm = TRUE
+    ),
+    course = .data[[course_col]]
+  ) %>%
+  select(course, perceived_value) %>%
+  filter(!is.na(course), !is.na(perceived_value))
+
+rq4_data$course <- as.factor(rq4_data$course)
+
+rq4_data %>%
+  head()
+
+```
+
+## Data Visualization - Boxplot
+
+```{r}
+library(ggplot2)
+
+ggplot(rq4_data, aes(x = course, y = perceived_value)) +
+  geom_boxplot() +
+  labs(
+    title = "Perceived Value by Course",
+    x = "Course",
+    y = "Perceived Value"
+  ) +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 45, hjust = 1)
+  )
+```
+
+The boxplot shows how perceived value is distributed across different courses.
+
+---
+
+## Project 2: Data Visualization Practice
+
+This project focused on transforming raw datasets into visuals that are easier to understand and explain.
+
+### What I Learned
+
+- How to create charts in R
+- How to summarize patterns
+- How visualization improves communication
+
+### Visualization Example
+
+```{r}
+ggplot(project_data,
+       aes(x = Project,
+           y = Score)) +
+  geom_point(size = 4) +
+  geom_line(group = 1) +
+  labs(
+    title = "Marketing Analytics Trend",
+    x = "Project",
+    y = "Score"
+  )
+```
+
+---
+
+## Project 3: Marketing Analytics Reflection
+
+Through these projects, I learned how analytics can support marketing decisions by helping businesses better understand customer behavior, performance, and trends.
+
+I also improved my ability to explain technical information in a simpler and more professional way.
+
+---
+
+## Project 4: Advanced Data Types and Structures
+
+This project focused on working with advanced data types in R, including strings, factors, and date-time objects. The assignment also explored how Revealjs presentations can be used to communicate technical information more effectively.
+
+### Skills Used
+
+- tidyverse
+- stringr
+- forcats
+- lubridate
+- Revealjs
+- Data transformation
+- Data summarization
+
+### What I Learned
+
+This project helped me better understand how different data types are handled in R. I learned how string functions can identify text patterns, how factor functions help organize categorical data, and how date-time functions simplify working with dates.
+
+I also learned how Revealjs presentations can combine code, analysis, and presentation design into one workflow.
+
+### Example Functions
+
+#### String Function
+
+```{r}
+library(stringr)
+
+str_count("This is a test sentence", "t")
+```
+
+#### Factor Function
+
+```{r}
+library(forcats)
+
+fct_rev(factor(c("A", "B", "C")))
+```
+
+#### Date-Time Function
+
+```{r}
+library(lubridate)
+
+today()
+```
+
+### Skills Shown
+
+- Data transformation
+- Technical communication
+- Analytical thinking
+- Problem solving
+- Workflow organization
+
+### Reflection
+
+This project improved my confidence working with more advanced data structures and functions in R. It also strengthened my understanding of how technical concepts can be communicated through presentations and reports.

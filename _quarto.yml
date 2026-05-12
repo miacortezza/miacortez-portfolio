@@ -1,0 +1,24 @@
+project:
+  type: website
+
+website:
+  title: "Mia Cortez Portfolio"
+  navbar:
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Marketing Analytics"
+        href: marketing-analytics.qmd
+      - text: "Revealsj Presentation"
+        href: revealsj.qmd
+      - text: "Résumé"
+        href: resume.qmd
+      - text: "Dashboard"
+        href: dashboard.qmd
+      - text: "Google Analytics"
+        href: google-analytics.qmd
+
+format:
+  html:
+    theme: flatly
+    toc: true

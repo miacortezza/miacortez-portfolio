@@ -1,0 +1,45 @@
+---
+title: "Hi, I'm Mia Cortez"
+---
+
+::: {.columns}
+::: {.column width="30%"}
+![](p1.png){width=100% style="border-radius: 50%;"}
+:::
+
+::: {.column width="70%" style="padding-left: 3rem;"}
+I am a Business Administration student with a focus in Marketing at Cal Poly Pomona. My portfolio highlights my work in marketing analytics, data visualization, Google Analytics, dashboards, and Quarto projects.
+:::
+:::
+
+## About Me
+
+I am interested in marketing analytics, digital marketing, and using data to better understand customers and business decisions. Through my IBM coursework, I have practiced working with RStudio, Quarto, data wrangling, visualizations, dashboards, and presentations.
+
+## Skills
+
+- RStudio
+- Quarto
+- Data wrangling
+- Data visualization
+- Google Analytics 4
+- Marketing analytics
+- Dashboard design
+- Presentation design
+
+## Career Goal
+
+My goal is to build a career in marketing where I can use data, creativity, and strategy to help businesses make better decisions and connect with customers.
+
+## Highlighted Work
+
+This portfolio includes selected IBM assignments, including marketing analytics projects, Google Analytics work, dashboard examples, and a Revealjs presentation.
+
+## Let's Connect
+
+You can email me at [mscortez@cpp.edu](mailto:youremail@example.com) or connect with me on LinkedIn **https://www.linkedin.com/in/miacortezz/**
+
+---
+
+*Welcome to my portfolio.*
+

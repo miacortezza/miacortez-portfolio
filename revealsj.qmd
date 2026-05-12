@@ -1,0 +1,59 @@
+---
+title: "Revealjs Presentation"
+---
+
+# Revealjs Presentation
+
+This page highlights my work with Revealjs presentations in Quarto. Revealjs is different from PowerPoint because the slides are created using code and Markdown, then rendered as a web-based presentation.
+
+## Project Overview
+
+For this assignment, I reflected on advanced data wrangling skills in R and explained how Revealjs presentations can be used to communicate technical information.
+
+## Skills Demonstrated
+
+- Quarto
+- Revealjs presentations
+- Markdown formatting
+- RStudio workflow
+- Data wrangling concepts
+- Professional communication
+
+## What I Learned
+
+Through this assignment, I learned that Revealjs presentations are useful because they allow code, explanation, and presentation slides to be connected in one document. This makes the work easier to update, reproduce, and publish online.
+
+## Advanced Data Wrangling Topics
+
+This assignment also covered important data wrangling concepts, including:
+
+- Cleaning datasets
+- Using the pipe operator
+- Joining relational datasets
+- Using `left_join()`
+- Using `inner_join()`
+- Using `full_join()`
+
+## Example Code from Assignment
+
+```{r}
+library(tidyverse)
+
+df1 <- tibble(
+  id = c(1, 2, 3),
+  name = c("Alice", "Bob", "Carol")
+)
+
+df2 <- tibble(
+  id = c(1, 2, 4),
+  score = c(85, 90, 88)
+)
+
+left_join(df1, df2, by = "id")
+```
+
+## Reflection
+
+This project helped me understand how data wrangling supports analysis before visualizations or conclusions are created. It also showed me how Quarto can be used for both reports and presentations.
+
+
